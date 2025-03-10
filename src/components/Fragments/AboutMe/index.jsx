@@ -2,6 +2,14 @@ import React from "react";
 import Container from "../../Layouts/Container";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCodeBranch } from "@fortawesome/free-solid-svg-icons";
+import ReactLogo from "/react.svg";
+import TailwindLogo from "/tailwind-css.svg";
+import ViteLogo from "/vitejs.svg";
+import HtmlLogo from "/html.svg";
+import CssLogo from "/css.svg";
+import JavascriptLogo from "/javascript.svg";
+import BootstrapLogo from "/bootstrap.svg";
+import JqueryLogo from "/jquery.svg";
 
 const AboutMe = () => {
   return (
@@ -30,13 +38,14 @@ const AboutMe = () => {
             <FontAwesomeIcon icon={faCodeBranch} size="sm" className="text-purple" /> Techstack Terkini :
           </h2>
           <div className="flex mt-5 gap-x-3">
-            <img src="/html.svg" alt="html" width={30} className="hover:transform hover:-translate-y-0.5 duration-300" />
-            <img src="/css.svg" alt="css" width={30} className="hover:transform hover:-translate-y-0.5 duration-300" />
-            <img src="/javascript.svg" alt="javascript" width={30} className="hover:transform hover:-translate-y-0.5 duration-300" />
-            <img src="/bootstrap.svg" alt="bootstrap" width={30} className="hover:transform hover:-translate-y-0.5 duration-300" />
-            <img src="/tailwind-css.svg" alt="tailwindcss" width={30} className="hover:transform hover:-translate-y-0.5 duration-300" />
-            <img src="/react.svg" alt="react" width={30} className="hover:transform hover:-translate-y-0.5 duration-300" />
-            <img src="/vite.svg" alt="vite" width={30} className="hover:transform hover:-translate-y-0.5 duration-300" />
+            <img src={HtmlLogo} alt="html" width={30} className="hover:transform hover:-translate-y-0.5 duration-300" />
+            <img src={CssLogo} alt="css" width={30} className="hover:transform hover:-translate-y-0.5 duration-300" />
+            <img src={JavascriptLogo} alt="javascript" width={30} className="hover:transform hover:-translate-y-0.5 duration-300" />
+            <img src={BootstrapLogo} alt="bootstrap" width={30} className="hover:transform hover:-translate-y-0.5 duration-300" />
+            <img src={TailwindLogo} alt="tailwindcss" width={30} className="hover:transform hover:-translate-y-0.5 duration-300" />
+            <img src={ReactLogo} alt="react" width={30} className="hover:transform hover:-translate-y-0.5 duration-300" />
+            <img src={ViteLogo} alt="vite" width={30} className="hover:transform hover:-translate-y-0.5 duration-300" />
+            <img src={JqueryLogo} alt="jquery" width={30} className="hover:transform hover:-translate-y-0.5 duration-300" />
           </div>
           <hr className="mt-3 border-1 text-green-secondary" />
         </div>
