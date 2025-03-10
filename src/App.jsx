@@ -1,4 +1,4 @@
-import { Routes, Route } from "react-router-dom";
+import { HashRouter as Routes, Route } from "react-router-dom";
 import Navbar from "./components/Layouts/Navbar";
 import HomePage from "./pages/home";
 import AboutPage from "./pages/about";
@@ -17,7 +17,7 @@ function App() {
       <div className={`min-h-screen transition-opacity duration-700 ${isLoaded ? "opacity-100" : "opacity-0"} bg-white text-black-custom`}>
         <Section>
           <Navbar />
-          <Routes>
+          <Routes basename="/ryan-portfolio">
             <Route path="/" element={<HomePage />} />
             <Route path="/about" element={<AboutPage />} />
             <Route path="/project" element={<ProjectPage />} />
