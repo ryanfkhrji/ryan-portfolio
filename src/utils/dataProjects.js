@@ -27,7 +27,7 @@ const getDataProjects = () => {
     {
       id: 3,
       title: "Calculator BMI",
-      image: import.meta.env.BASE_URL + "/assets/Project-3.svg",
+      image: import.meta.env.BASE_URL + "/assets/Project-7.svg",
       linkUrl: "https://ryanfkhrji.github.io/calculator-bmi/",
       description: "Kalkulator untuk menghitung Indeks Massa Tubuh (BMI). Menghasilkan kategori berat badan berdasarkan tinggi dan berat pengguna.",
       tech: {
@@ -39,7 +39,7 @@ const getDataProjects = () => {
     {
       id: 4,
       title: "Website Badut Kita",
-      image: import.meta.env.BASE_URL + "/assets/Project-4.svg",
+      image: import.meta.env.BASE_URL + "/assets/Project-3.svg",
       linkUrl: "https://ryanfkhrji.github.io/badut-kita/",
       description: "Website penyedia jasa sewa badut murah di Jabodetabek. Menampilkan galeri foto dan tombol pemesanan cepat.",
       tech: {
@@ -50,7 +50,7 @@ const getDataProjects = () => {
     {
       id: 5,
       title: "Landing Page Sneaker Shop",
-      image: import.meta.env.BASE_URL + "/assets/Project-5.svg",
+      image: import.meta.env.BASE_URL + "/assets/Project-4.svg",
       linkUrl: "https://ryanfkhrji.github.io/sneakers/",
       description: "Platform untuk menjual sepatu sneakers dengan desain modern. Memiliki kategori produk dan tampilan harga yang jelas.",
       tech: {
@@ -62,7 +62,7 @@ const getDataProjects = () => {
     {
       id: 6,
       title: "Website WPU Hat",
-      image: import.meta.env.BASE_URL + "/assets/Project-6.svg",
+      image: import.meta.env.BASE_URL + "/assets/Project-5.svg",
       linkUrl: "https://ryanfkhrji.github.io/wpu-hat/",
       description: "Menyediakan layanan pemesanan pizza secara online. Menampilkan daftar menu dengan gambar, deskripsi, dan harga.",
       tech: {
@@ -75,7 +75,7 @@ const getDataProjects = () => {
     {
       id: 7,
       title: "To Do List",
-      image: import.meta.env.BASE_URL + "/assets/Project-7.svg",
+      image: import.meta.env.BASE_URL + "/assets/Project-6.svg",
       linkUrl: "https://ryanfkhrji.github.io/toDoList/",
       description: "Aplikasi untuk mencatat dan mengelola daftar tugas. Memiliki fitur centang untuk tugas selesai dan tombol hapus.",
       tech: {

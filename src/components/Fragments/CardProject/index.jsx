@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 
@@ -16,9 +15,9 @@ const HeaderCard = (props) => {
   const { image, children, linkUrl } = props;
   return (
     <>
-      <Link to={linkUrl}>
+      <a href={linkUrl} target="_blank" rel="noopener noreferrer">
         <img src={image} alt={children} className="object-cover w-full rounded-sm" />
-      </Link>
+      </a>
     </>
   );
 };
@@ -39,12 +38,10 @@ const FooterCard = (props) => {
   const { linkUrl, children } = props;
   return (
     <>
-      <div className="flex py-4 gap-x-2">
-        {children}
-      </div>
-      <Link to={linkUrl}>
+      <div className="flex py-4 gap-x-2">{children}</div>
+      <a href={linkUrl} target="_blank" rel="noopener noreferrer">
         <span className="text-sm font-semibold md:text-base text-green-secondary font-Grotesk">Visit</span> <FontAwesomeIcon icon={faArrowRight} size="sm" className="text-green-secondary" />
-      </Link>
+      </a>
     </>
   );
 };

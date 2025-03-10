@@ -21,11 +21,11 @@ const Hero = (props) => {
             Saya seorang frontend developer yang gemar menciptakan antarmuka web yang bersih, responsif, dan menarik. Tujuan saya adalah membangun solusi yang memberikan pengalaman pengguna yang intuitif dan performa luar biasa.
           </p>
           <div className="flex justify-center">
-            <Link to={linkUrl}>
+            <a href={linkUrl} target="_blank" rel="noopener noreferrer">
               <Button type="button" sizeText="text-sm">
                 <FontAwesomeIcon icon={faCircleArrowDown} size="sm" /> Download My CV
               </Button>
-            </Link>
+            </a>
           </div>
         </div>
       </Container>
